@@ -1,0 +1,63 @@
+//*{
+    margin: 5px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;*//
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: plum;
+}
+.about-section{
+background:url(images/about.jpg) no-repeat left;
+    background-size:auto;
+    background-color: plum;
+    overflow: hidden;
+    padding: 100 px 0;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: plum;
+    padding: 150px;
+}
+.inner-container h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color:plum;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+
+
+}
+@media screen and(max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+.inner-container{
+    padding: 60px;
+    width: 100%;
+}
+}
+
